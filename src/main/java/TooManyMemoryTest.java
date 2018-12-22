@@ -17,7 +17,7 @@ public class TooManyMemoryTest {
 
     public static void main(String [] args) throws Exception{
 
-        for(int i = 0; i < 50000;i++){
+        for(int i = 0; i < 100000;i++){
             map.put(i+"",new TestObj(new Random().nextLong()+"asfasdfa"));
         }
         TimeUnit.SECONDS.sleep(1000);
